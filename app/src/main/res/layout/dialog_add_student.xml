@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <EditText
-        android:id="@+id/edtName"
+        android:id="@+id/etTen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:hint="Họ tên" />
+        android:hint="Tên sinh viên" />
 
     <EditText
-        android:id="@+id/edtId"
+        android:id="@+id/etMSSV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:hint="MSSV"
-        android:inputType="number" />
+        android:hint="Mã số sinh viên"
+        android:inputType="text" />
 </LinearLayout>
